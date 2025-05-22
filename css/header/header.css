@@ -1,0 +1,75 @@
+.header {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 12px;
+  top: 0;
+  left: 0;
+  width: 400px;
+  height: 100%;
+  background: linear-gradient(to top, skyblue, aqua, #cbb0ff);
+}
+
+.header h1 {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 4rem;
+  color: #fff;
+  line-height: 1px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  text-align: center;
+}
+
+.header h1:hover {
+  color: steelblue;
+  opacity: 0.5;
+}
+
+.header h1::after {
+  content: "";
+  display: block;
+  width: 200px;
+  height: 2px;
+  background-color: #fff;
+  margin-top: 20px;
+}
+.header h1::before {
+  position: absolute;
+  left: 0;
+  bottom: -100%;
+  content: "RESPONSIVE-PAGE-SAMPLE";
+  display: block;
+  font-family: "orbitron";
+  font-size: 1.2rem;
+  line-height: 1;
+  color: #fff;
+  letter-spacing: 2px;
+  opacity: 0.8;
+}
+
+.header ul {
+  position: absolute;
+  bottom: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.header ul li {
+  display: flex;
+  color: #fff;
+}
+
+.header ul li a {
+  font-size: 2rem;
+  color: #fff;
+}
+
+.header ul li span {
+  font-size: 1.5rem;
+  color: #fff;
+}

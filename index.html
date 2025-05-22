@@ -5,28 +5,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>반응형 웹페이지 실습 스터디</title>
     <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/header/header.css" />
+    <link rel="stylesheet" href="css/main/main.css" />
+
+    <script
+      src="https://kit.fontawesome.com/f541cd571a.js"
+      crossorigin="anonymous"
+    ></script>
     <script src="js/script.js"></script>
   </head>
   <body>
     <header class="header">
-      <h1>ANDREW SUMMER</h1>
+      <h1>COCO SUMMER</h1>
       <ul>
         <li>
-          <a href="#">이메일</a>
+          <a href="#">
+            <i class="fa-regular fa-envelope"></i>
+            <span href="#">이메일</span>
+          </a>
         </li>
         <li>
-          <a href="#">깃허브</a>
+          <a href="#">
+            <i class="fa-brands fa-github"></i>
+            <span href="#">깃허브</span>
+          </a>
         </li>
         <li>
-          <a href="#">유튜브</a>
+          <a href="#">
+            <i class="fa-brands fa-youtube"></i>
+            <span href="#">유튜브</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa-regular fa-bookmark"></i>
+            <span href="#">노션</span>
+          </a>
         </li>
       </ul>
     </header>
 
     <main class="main">
       <!-- sorting -->
-      <ul>
-        <li class="on"><a href="*">전체보기</a></li>
+      <ul class="sorting">
+        <li class="on"><a href="on">전체보기</a></li>
         <li><a href=".odd">홀수보기</a></li>
         <li><a href=".even">짝수보기</a></li>
       </ul>
