@@ -48,12 +48,6 @@
   background: linear-gradient(to top, skyblue, #cbb0ff);
 }
 
-.sorting li.on a:hover {
-  color: #ffffff;
-  background: linear-gradient(to top, #cbb0ff, #fff);
-  box-shadow: 0 0 10px rgba(84, 130, 255, 0.3);
-}
-
 .section {
   position: relative;
   width: 100%;
