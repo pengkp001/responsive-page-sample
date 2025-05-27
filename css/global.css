@@ -59,6 +59,9 @@ img {
 }
 .modal-close {
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .modal-close:hover {
   font-weight: bold;
